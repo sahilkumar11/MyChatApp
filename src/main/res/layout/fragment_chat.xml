@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ChatsFragment">
+
+    />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recylerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6F6F6" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="18dp"
+        android:clickable="true"
+        app:backgroundTint="#043C68"
+        android:layout_marginRight="18dp"
+
+        app:srcCompat="@android:drawable/stat_notify_chat" />
+
+
+</FrameLayout>
